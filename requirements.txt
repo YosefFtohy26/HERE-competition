@@ -1,0 +1,26 @@
+# --- Index for GPU-enabled Torch ---
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+# --- Machine Learning & Deep Learning ---
+torch
+torchvision
+torchaudio
+xgboost
+lightgbm
+scikit-learn
+
+# --- LiDAR & 3D Processing ---
+laspy[lazrs]
+open3d
+pdal
+python-pdal
+
+# --- Geospatial & Data ---
+geopandas
+pandas
+numpy
+matplotlib
+seaborn
+shapely
+rasterio
+pyproj
