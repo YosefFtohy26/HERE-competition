@@ -105,3 +105,13 @@ if __name__ == "__main__":
         process_lidar(sys.argv[1])
     else:
         print("Usage: python main_processor.py your_file.las")
+
+"""
+
+will be runned using this: 
+import pdal
+with open("clean_data.json") as f:
+    pipeline = pdal.Pipeline(f.read())
+pipeline.execute()
+
+"""
